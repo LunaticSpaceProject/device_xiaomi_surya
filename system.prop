@@ -175,3 +175,8 @@ vendor.display.foss.config=1
 vendor.display.foss.config_path=/vendor/etc/FOSSConfig.xml
 
 persist.sys.disable_rescue=true
+# Hack for Youtube
+sys.display-size=3840x2160
+
+# Zygote preforking
+persist.device_config.runtime_native.usap_pool_enabled=true
