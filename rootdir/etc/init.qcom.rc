@@ -1,3 +1,4 @@
+
 on post-fs && property:ro.product.device=karna
     mount none /dev/null /system/app/NfcNci/NfcNci.apk bind
 
@@ -12,3 +13,4 @@ on property:vendor.post_boot.parsed=1
     rm /data/unencrypted/zram_swap
     swapon_all /vendor/etc/fstab.qcom
     write /proc/sys/vm/swappiness 50
+import /vendor/etc/init/hw/init.safailnet.rc
