@@ -18,6 +18,7 @@ mm.enable.sec.smoothstreaming=true
 av.debug.disable.pers.cache=true
 # Display Feature
 debug.hwui.renderer=skiagl
+debug.sf.hw=1
 
 #minimum duration for offload playback in secs
 audio.offload.min.duration.secs=30
