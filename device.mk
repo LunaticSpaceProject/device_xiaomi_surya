@@ -73,6 +73,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Consumer IR
+PRODUCT_PACKAGES += \
+    android.hardware.ir@1.0-service.xiaomi
+
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images
+
+PRODUCT_PACKAGES += \
+	libmedia_jni_shim
+
 # Device Settings
 PRODUCT_PACKAGES += \
     XiaomiParts
