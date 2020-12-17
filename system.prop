@@ -4,6 +4,7 @@ ro.netflix.bsp_rev=Q6150-17263-1
 # Set stock DPI
 ro.sf.lcd_density=440
 
+
 #system props for the MM modules
 media.stagefright.enable-player=true
 media.stagefright.enable-http=true
@@ -15,6 +16,8 @@ media.aac_51_output_enabled=true
 #media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 mm.enable.sec.smoothstreaming=true
 av.debug.disable.pers.cache=true
+# Display Feature
+debug.hwui.renderer=skiagl
 
 #minimum duration for offload playback in secs
 audio.offload.min.duration.secs=30
