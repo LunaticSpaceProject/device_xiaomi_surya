@@ -69,6 +69,7 @@ PRODUCT_COPY_FILES += \
 # Display/Graphics
 PRODUCT_PACKAGES += \
     libdisplayconfig \
+    libqdMetaData \
     libqdMetaData.system
 
 # Fastbootd
