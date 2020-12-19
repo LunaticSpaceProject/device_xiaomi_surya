@@ -7,10 +7,10 @@
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/corvus/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := revengeos_surya
+PRODUCT_NAME := corvus_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3
