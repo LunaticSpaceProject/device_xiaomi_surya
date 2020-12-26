@@ -54,12 +54,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.use_minfree_levels=true \
     ro.lmk.log_stats=true
 
-# Recorder
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.vendor.audio.sdk.fluencetype=fluence \
-    persist.vendor.audio.fluence.voicerec=true \
-    persist.vendor.audio.fluence.audiorec=true
-
 # Smart fps switching
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.smart_dfps.enable=false
