@@ -1,15 +1,15 @@
 [
     {
         "remote":       "github",
-        "repository":   "PixysOS-devices/vendor_xiaomi_surya",
+        "repository":   "thepsambit/vendor_xiaomi_surya",
         "target_path":  "vendor/xiaomi/surya",
         "branch":     "eleven"
     },
     {
         "remote":       "github",
-        "repository":   "PixysOS-devices/kernel_xiaomi_surya",
+        "repository":   "GZR-Kernels/Optimus_Drunk_Surya",
         "target_path":  "kernel/xiaomi/surya",
-        "branch":     "eleven"
+        "branch":     "11.0"
     },
     {
         "remote":       "github",
