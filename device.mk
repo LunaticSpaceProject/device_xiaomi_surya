@@ -34,6 +34,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     AntHalService
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
