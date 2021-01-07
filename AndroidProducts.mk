@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_surya.mk
+    $(LOCAL_DIR)/fluid_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_surya-user \
-    corvus_surya-userdebug \
-    corvus_surya-eng
+    fluid_surya-user \
+    fluid_surya-userdebug \
+    fluid_surya-eng
